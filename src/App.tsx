@@ -21,6 +21,8 @@ function App() {
         y: clientY,
       },
     ]);
+
+    setPopped([]);
   };
 
   const handleUndo = () => {
